@@ -1,0 +1,36 @@
+.{
+    .name = "context",
+    .version = "1.85.0",
+    .dependencies = .{
+        .assert = .{
+            .url = "git+https://github.com/boostorg/assert#425b5ba31b0667439fb72dbf9ce425af6ef1b094",
+            .hash = "1220aa44030b2b9a3c3b18743150add36cfd631cbfd36a755e99c4be3fac1504fbc2",
+        },
+        .core = .{
+            .url = "git+https://github.com/boostorg/core#3f36d507f2cd9ba55716336c3fb1843d951830ae",
+            .hash = "1220d8a194cc866a4fa9256d6fb0f6eab4a3e0d74e1c5736d4543a7ea0634bd440af",
+        },
+        .config = .{
+            .url = "git+https://github.com/boostorg/config#5734e160e08b8df898c7f747000f27a3aafb7b2b",
+            .hash = "12209097ed2bab41567145d8690d5cf7800b323664642cf81463625c40fe275378d7",
+        },
+        .intrusive = .{
+            .url = "git+https://github.com/boostorg/intrusive#92d126fc440b3cb140c54421d7387c1781d0f1cb",
+            .hash = "1220e44df6ec7f7e9408104300c15e3ab1ce228fa1d876e68811b92fdbfc03b4e6af",
+        },
+        .predef = .{
+            .url = "git+https://github.com/boostorg/predef#9aca7f5b609a731106a6d70e8dca9a4196dca968",
+            .hash = "122074b0b1044621ee4845660793e413df36609a2fdf38e017d48b7d1d6a77bd876c",
+        },
+        .preprocessor = .{
+            .url = "git+https://github.com/boostorg/preprocessor#c4ea7e40d365ba28faecef8917d5c3f1e0121bf9",
+            .hash = "1220b9a8dc8c3a92df0f8958e8c2195441ad5db1f8ee442262cbbfbeb7fdbfcb8e22",
+        },
+        .smart_ptr = .{
+            .url = "git+https://github.com/boostorg/smart_ptr#c4ae5e0c429f2792b45e51a19c2153bf975b38ae",
+            .hash = "12203b4495ad48cc02451e759a07633580964160fa227bc55cd07739edd9efa36acb",
+        },
+    },
+    .license = "BSL-1.0",
+    .paths = .{""},
+}
